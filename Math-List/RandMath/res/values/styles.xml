@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="listview">
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:listSelector">@drawable/mydrawable</item>
+    </style>
+</resources>

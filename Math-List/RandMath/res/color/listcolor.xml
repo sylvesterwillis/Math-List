@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Creating selectors for ListViews -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@color/blue1"/> <!-- pressed -->
+    <item android:drawable="@color/blue1"/> <!-- default -->
+</selector>

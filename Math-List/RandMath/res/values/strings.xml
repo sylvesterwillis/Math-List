@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math List</string>
+    <string name="areaHelp">Use the list below to select an area.</string>
+    <string name="topicHelp">Use the list below to select a topic.</string>
+    <string name="areaHeader">Areas</string>
+    <string name="topicHeader">Topics</string>
+    <string name="problemHeader">Problem</string>
+    
+    <!-- Various colors used in the app. -->
+    
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Blues coded from 1 to 5 based upon darkness, 
+     	 color scheme taken from 'Blue Elevator' at
+     	 http://kuler.adobe.com/#themeID/375290
+     -->
+    <color name="blue1">#E6FEFE</color>
+    <color name="blue2">#A5E0E4</color>
+    <color name="blue3">#71BAC3</color>
+    <color name="blue4">#226077</color>
+    <color name="blue5">#0C1325</color>
+    
+</resources>

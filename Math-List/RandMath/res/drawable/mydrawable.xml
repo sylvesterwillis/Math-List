@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <!-- pressed -->
+    <item android:state_pressed="true" android:drawable="@color/blue2" />
+    
+    <!-- pressed and focused -->
+    <item android:state_pressed="true" android:state_focused="true" 
+          android:drawable="@color/blue2"  android:textColor="@color/blue5"/>
+    
+    <!-- not pressed nor focused -->
+    <item android:state_pressed="false" android:state_focused="false" 
+          android:drawable="@color/blue5"  android:textColor="@color/blue2" />
+    
+    <!-- not pressed but focused -->
+    <item android:state_pressed="false" android:state_focused="true" 
+          android:drawable="@color/blue5"  android:textColor="@color/blue2" />
+    
+    <!-- pressed but not focused -->
+    <item android:state_pressed="true" android:state_focused="false" 
+          android:drawable="@color/blue5"  android:textColor="@color/blue2" />
+    
+    <!-- default -->
+    <item android:drawable="@color/blue5" android:textColor="@color/blue2" /> 
+</selector>

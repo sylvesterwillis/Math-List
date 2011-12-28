@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Because of newline limitations within mathjax, all problems with multiple lines must use \begin...\end{align} in order to preserve newline functionality. -->
+
+<problemList>
+	<area>
+	<areaName>Calculus</areaName>
+		<topic>
+			<topicName>Limits</topicName>
+			
+			<problem>\lim_{n\rightarrow\infty} (1+x/n)^n</problem>
+			<problem>\lim_{x\rightarrow1} \frac{-1\left|x-1\right|}{x-1}</problem>
+			<problem>\text{If } f(x) = \begin{cases}5 \text{if }x=-1\\ -3x+3 \text{otherwise} \end{cases} \text{ find } \lim_{x\rightarrow-1}f(x).</problem>
+			<problem>\lim_{x\rightarrow-6} \frac{5\left|x+6\right|}{x+6}</problem>
+			<problem>\lim_{x\rightarrow-1} \frac{-3x^2(x+1)}{x+1}</problem>
+			<problem>\lim_{x\rightarrow-2} \frac{x^2(x+2)}{x+2}</problem>
+			<problem>\lim_{x\rightarrow-5} \frac{4x^2(x+5)}{x+5}</problem>
+			<problem>\lim_{x\rightarrow-9} \frac{-6x^2(x+9)}{x+9}</problem>
+			<problem>\lim_{x\rightarrow-3} \frac{7\left|x+3\right|}{x+3}</problem>
+			<problem>\lim_{x\rightarrow5} \frac{-2\left|x+5\right|}{x+5}</problem>
+			<problem>\lim_{x\rightarrow0} \frac{-5x^2-5x}{-2x^2-2x}</problem>
+			<problem>\lim_{x\rightarrow0} \frac{-15x^2-15x}{-12x^2-12x}</problem>
+			<problem>\lim_{x\rightarrow0} \frac{-5x^3-5x^2-5x}{2x^3-2x^2-2x}</problem>
+			<problem>\lim_{x\rightarrow\infty} \frac{-5x^2-5x}{-2x^2-2x}</problem>
+			<problem>\lim_{x\rightarrow\infty} \frac{6x^2-6x}{5x^2-4x}</problem>
+			<problem>\lim_{x\rightarrow\infty} \frac{-5x^3+3x^2+5x}{-2x^3-2x^2+3x}</problem>
+			
+		</topic>
+		
+		<topic>
+			<topicName>Derivatives</topicName>
+			
+			<problem>\frac{d}{dx}\left(\frac{\tan x}{2x^3+3x^2+x-7-2x^-1-3x^-2}\right)</problem>
+			<problem>\frac{d}{dx}\left(\frac{\cos x}{e^x}\right)</problem>
+			<problem>\frac{d}{dx}\left(\frac{e^x}{3x^3+5x^2+5x+4}\right)</problem>
+			<problem>\frac{d}{dx}\left(\frac{\ln x}{e^x}\right)</problem>
+			<problem>\frac{d}{dx}\left(\left(\cos x\right)\left(\ln x\right)\right)</problem>
+			<problem>\frac{d}{dx}\left(\left(\sin x\right)\left(2x^4-5x^3+5x^2-5x+7-x^-1\right)\right)</problem>
+			<problem>\frac{d}{dx}\left(\left(-6x^2+3x-4+3x^-1\right)\left(\tan x\right)\right)</problem>
+			<problem>\frac{d}{dx}\left(\left(e^x\right)\left(\tan x\right)\right)</problem>
+		</topic>
+		
+		<topic>
+			<topicName>Integrals</topicName>
+			
+			<problem>\int\left(ax^2+b\right)dx</problem>
+			<problem>&amp;\text{Find } f \text{ from the information given. }&amp;\\f'(x)=3-4x, f(1)=6</problem>
+			<problem>\int^2_1 \left(x^2+2x\right)dx</problem>
+			<problem>\int^2_0 x2^x dx</problem>
+			<problem>\int^1_0 x\arctan x^2</problem>
+		</topic>
+		
+		<topic>
+			<topicName>Series</topicName>
+			
+			<problem>\begin{align}&amp;\text{Find the sum of the series.}\\ &amp;\sum_{k=0}^\infty \frac{3}{10^k}\end{align}</problem>
+			<problem>\begin{align}&amp;\text{Find the sum of the series.}\\ &amp;\sum_{k=0}^\infty \frac{1-2^k}{3^k}\end{align}</problem>
+			<problem>\begin{align}&amp;\text{Find the sum of the series.}\\ &amp;\sum_{k=0}^\infty \frac{2^(k+3)}{3^k}\end{align}</problem>
+			<problem>\begin{align}&amp;\text{Find the sum of the series.}\\ &amp;\sum_{k=1}^\infty \frac{1}{k(k+3)}\end{align}</problem>
+			<problem>\begin{align}&amp;\text{Find the sum of the series.}\\ &amp;\sum_{k=1}^\infty \frac{1}{2k(k+1)}\end{align}</problem>
+		</topic>
+	</area>
+	
+	<area>
+	<areaName>Discrete Math</areaName>
+		<topic>
+			<topicName>Counting</topicName>
+			
+	<problem>
+	\begin{align}
+    &amp;\text{A teacher is making a multiple choice quiz. }\\
+    &amp;\text{She wants to give each student the same questions, but have each student's questions appear in a different order.}\\
+    &amp;\text{If there are twenty-seven students in the class, what is the least number of questions the quiz must contain?}
+    \end{align}
+	</problem>
+  
+	<problem>
+   \text{A coach must choose five starters from a team of 12 players.  How many different ways can the coach choose the starters?}
+	</problem>
+  
+	<problem>
+	\begin{align}
+  &amp;\text{There are fourteen juniors and twenty-three seniors in the Service Club.  The club is to send four representatives to the State Conference.}\\
+
+&amp;\text{a.)  How many different ways are there to select a group of four students to attend the conference?}\\
+
+&amp;\text{b.)  If the members of the club decide to send two juniors and two seniors, how many different groupings are possible?}
+\end{align}
+	</problem>
+  
+	<problem>
+  \text{Ten coins are tossed simultaneously. In how many of the outcomes will the third coin turn up a head? }
+	</problem>
+  
+	<problem>
+  \text{A man can hit a target once in 4 shots. If he fires 4 shots in succession, what is the probability that he will hit his target? }
+	</problem>
+  
+	<problem>
+  \text{In how many ways can the letters of the word "PROBLEM" be rearranged to make seven letter words such that none of the letters repeat? }
+	</problem>
+  
+	<problem>
+  \text{In how many ways can the letters of the word ABACUS be rearranged such that the vowels always appear together? }
+	</problem>
+			
+	<problem>
+	\begin{align}
+  &amp;\text{There are 6 boxes numbered 1, 2, ... 6. Each box is to be filled up either with a red or a green ball in such a way} \\
+  &amp;\text{that at least 1 box contains a green ball and the boxes containing green balls are consecutively numbered.} \\
+  &amp;\text{What is the total number of ways in which this can be done? }
+  \end{align}
+	</problem>
+			
+		</topic>
+	</area>
+</problemList>
