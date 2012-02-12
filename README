@@ -1,0 +1,3 @@
+Android app that uses XML parsing to create a list of various Calculus topics, and upon selection of one of the 
+topics, a random problem is generated. The problem is stored in the XML file as latex , after which it is shown in 
+a webview using the MathJax library.
